@@ -12,6 +12,7 @@ class AutoColorGenerationApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: AppStrings.appTitle,
       theme: ThemeData(primarySwatch: Colors.blue),
       home: const AutoColorGenerationScreen(),
